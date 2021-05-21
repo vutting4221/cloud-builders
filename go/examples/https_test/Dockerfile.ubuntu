@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:groovy-20210416
 
 RUN apt-get update -qqy && apt-get install -qqy ca-certificates
 
